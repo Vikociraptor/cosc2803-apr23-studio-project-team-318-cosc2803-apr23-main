@@ -10,13 +10,21 @@ body {
    background: white;
 }
 
-
 .left {
    float: left;
    width: 50%;
  }
 
  .right {
+   float: right;
+   width: 50%;
+ }
+ .firstDate {
+   float: left;
+   width: 50%;
+ }
+
+ .secondDate {
    float: right;
    width: 50%;
  }
