@@ -1,0 +1,66 @@
+/* External CSS style file */
+
+* {
+   box-sizing: border-box;
+}
+
+body {
+   font-family: Arial;
+   padding: 10px;
+   background: white;
+}
+
+
+.left {
+   float: left;
+   width: 50%;
+ }
+
+ .right {
+   float: right;
+   width: 50%;
+ }
+
+/* CSS Layout from W3Schools: https://www.w3schools.com/css/css_templates.asp */
+/* Style the top navigation bar */
+.topnav {
+   overflow: hidden;
+ }
+ 
+ /* Style the topnav links */
+ .topnav a {
+   float: left;
+   display: block;
+   color: black;
+   text-align: center;
+   padding: 14px 16px;
+   text-decoration: none;
+ }
+ 
+ /* Change color on hover */
+ .topnav a:hover {
+   background-color: #ddd;
+   color: black;
+ }
+ 
+ /* Style the content */
+ .content {
+   background-color: white;
+   padding: 10px;
+ }
+
+ .formTitle {
+   text-align: center;
+ }
+
+ .name{
+   padding: 20px;
+   background-color: beige;
+   text-align: center;
+}
+ 
+ /* Style the footer */
+ .footer {
+   background-color: #cccccc;
+   padding: 10px;
+ }
