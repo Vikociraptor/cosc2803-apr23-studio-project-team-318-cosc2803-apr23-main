@@ -49,7 +49,6 @@ public class PageIndex implements Handler {
                 <a href='mission.html'>Our Mission</a>
                 <a href='page2A.html'>Help</a>
                 <a href='page2B.html'>Sub Task 2.B</a>
-                <a href='page3A.html'>Sub Task 3.A</a>
                 <a href='page3B.html'>Sub Task 3.B</a>
             </div>
         """;
@@ -74,23 +73,35 @@ public class PageIndex implements Handler {
             <div class = "formTitle">
                 <h1>Time to gather some data</h1>
             </div>
-            <form method="post" action="/page2A.html">
-                
+            <form method="post" action="/submitPage.html">
                 <div id="divName" class="name">
-                    <label for="Name">Where would you like to go?</label>
-                    <input type="text" id="Name" placeholder="Enter your name">
+                    <input type="text" id="Name" placeholder="Where would you like to go?">
                 </div>
-
-                <div id="firstDate" class="firstDate">
-                    <label for="Name">Please enter first date:</label>
+                <div>
+                    <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d64962697.57299334!2d124.47398316014765!3d-4.444463538257194!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sau!4v1685250763035!5m2!1sen!2sau" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+                <div id="firstDate" class="date">
                     <input type="text" id="firstDate" placeholder="DATE">
                 </div>
 
-                <div id="secondDate" class="secondDate">
-                    <label for="Name">Please enter second date:</label>
+                <div id="secondDate" class="date">
                     <input type="text" id="secondDate" placeholder="DATE">
                 </div>
-                
+
+                <div style="overflow:auto;width:200px;height:200px;" align="left">
+                <select style= "width:300px;" name=" " id=" " multiple size="16" align="left">
+                 <option value="1">== Select Here ==</option>
+                  <option value="2">== Select Here ==</option>
+                  <option value="3">== Select Here ==</option>
+                   <option value="4">== Select Here == </option>
+                </select>
+                </div>  
+
+                <div id="divSubmit" class="submit">
+                    <a href='/submitPage.html'>
+                        <button>Sumbit</button>
+                    </a>
+                </div>
             </form>
             """;
     

@@ -20,10 +20,10 @@ import java.sql.Statement;
  * @author Timothy Wiley, 2023. email: timothy.wiley@rmit.edu.au
  * @author Santha Sumanasekara, 2021. email: santha.sumanasekara@rmit.edu.au
  */
-public class PageST3A implements Handler {
+public class SubmitPage implements Handler {
 
     // URL of this page relative to http://localhost:7001/
-    public static final String URL = "/page3A.html";
+    public static final String URL = "/submitPage.html";
 
     @Override
     public void handle(Context context) throws Exception {
@@ -49,7 +49,7 @@ public class PageST3A implements Handler {
                 <a href='mission.html'>Our Mission</a>
                 <a href='page2A.html'>Sub Task 2.A</a>
                 <a href='page2B.html'>Sub Task 2.B</a>
-                <a href='page3A.html'>Sub Task 3.A</a>
+                <a href='submitPage.html'>Submit page</a>
                 <a href='page3B.html'>Sub Task 3.B</a>
             </div>
         """;

@@ -19,16 +19,7 @@ body {
    float: right;
    width: 50%;
  }
- .firstDate {
-   float: left;
-   width: 50%;
- }
-
- .secondDate {
-   float: right;
-   width: 50%;
- }
-
+ 
 /* CSS Layout from W3Schools: https://www.w3schools.com/css/css_templates.asp */
 /* Style the top navigation bar */
 .topnav {
@@ -63,8 +54,40 @@ body {
 
  .name{
    padding: 20px;
-   background-color: beige;
    text-align: center;
+}
+
+ #Name{
+   width: 300px;
+   height: 50px;
+   text-align: center;
+   font-size: 20px;
+}
+
+ .map{
+   padding: 20px;
+   width: 60%;
+   margin-left: auto;
+   margin-right: auto;
+   display: block;
+ }
+
+ #firstDate {
+   float: left;
+   width: 50%;
+   padding: 20px;
+ }
+
+ #secondDate {
+   float: right;
+   width: 50%;
+   padding: 20px;
+ }
+
+ .submit{
+   padding: 20px;
+   margin: 20px;
+   background-color: burlywood;
 }
  
  /* Style the footer */
